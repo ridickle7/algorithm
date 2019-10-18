@@ -1,4 +1,4 @@
-package kakao_open;
+package kakao_open._2018;
 
 import java.util.ArrayList;
 import java.util.Scanner;

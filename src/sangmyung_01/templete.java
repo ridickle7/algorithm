@@ -12,6 +12,8 @@ public class templete {
     final static int MAX = Integer.MAX_VALUE;
     final static int[] D = new int[MAX];
 
+    final static String[][] D2 = new String[MAX][2];
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
