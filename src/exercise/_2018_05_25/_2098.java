@@ -39,7 +39,7 @@ public class _2098 {
                 W[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-        // solve, 시작점 & 도착점 : 0
+        // testSolve, 시작점 & 도착점 : 0
         System.out.println(solution(SOURCE, 1 << SOURCE));
     }
 
