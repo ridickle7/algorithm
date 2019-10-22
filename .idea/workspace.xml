@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0879a5-4bfa-409a-9f98-8ce691e10ae9" name="Default" comment="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2178 미로찾기&#10;- 1260 BFS, DFS (리펙토링)">
-      <change afterPath="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java" afterDir="false" />
+    <list default="true" id="ed0879a5-4bfa-409a-9f98-8ce691e10ae9" name="Default" comment="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 리펙토링 포기">
+      <change afterPath="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise/acmicpc/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/acmicpc/Solve.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1260.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="156" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="-70">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,15 +83,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="428">
+              <caret line="88" column="96" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#813#814#0" expanded="true" />
                 <element signature="e#844#845#0" expanded="true" />
+                <element signature="class#Point#0;class#_2667#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#5911#5912#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,13 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>visited = new boolean</find>
-      <find>sbBFS</find>
-      <find>pop</find>
-      <find>resultClear</find>
-      <find>firstLine</find>
-      <find>params</find>
-      <find>var newTarget</find>
       <find>var</find>
       <find>scan.next</find>
       <find>scan.nextLine</find>
@@ -132,7 +142,6 @@
       <find>[y</find>
       <find>visitedTemp</find>
       <find>matrix</find>
-      <find>visited</find>
       <find>x</find>
       <find>scan</find>
       <find>solution</find>
@@ -147,10 +156,20 @@
       <find>[y]</find>
       <find>[nextY]</find>
       <find>answer</find>
+      <find>[</find>
+      <find>[x</find>
+      <find>[nextX][nextY]</find>
+      <find>visited</find>
+      <find>== -1</find>
+      <find>nextQueue</find>
+      <find>nextQ</find>
+      <find>remained</find>
     </findStrings>
     <replaceStrings>
       <replace>private static</replace>
       <replace>visited</replace>
+      <replace>[y][x]</replace>
+      <replace>[nextY][nextX]</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,10 +200,11 @@
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/Default.java" />
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/Solve.java" />
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1260.java" />
-        <option value="$PROJECT_DIR$/src/exercise/acmicpc/Solve.java" />
         <option value="$PROJECT_DIR$/src/exercise/programmers/Solve.java" />
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2178.java" />
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java" />
+        <option value="$PROJECT_DIR$/src/exercise/acmicpc/Solve.java" />
+        <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java" />
       </list>
     </option>
   </component>
@@ -282,6 +302,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -304,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._2667">
+  <component name="RunManager" selected="Application._7576">
     <configuration name="_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise.acmicpc.bfs.java._1260" />
       <module name="algorithm" />
@@ -347,22 +368,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="everyday08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise._2018_05_10_everydayProgramming.everyday08" />
+    <configuration name="_7576" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.acmicpc.bfs.java._7576" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise._2018_05_10_everydayProgramming.*" />
+          <option name="PATTERN" value="exercise.acmicpc.bfs.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -397,19 +418,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.everyday08" />
       <item itemvalue="Application.everyday09" />
       <item itemvalue="Application._1260" />
       <item itemvalue="Application._2178" />
       <item itemvalue="Application._2667" />
+      <item itemvalue="Application._7576" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._7576" />
         <item itemvalue="Application._2667" />
         <item itemvalue="Application._1260" />
         <item itemvalue="Application._2178" />
         <item itemvalue="Application.everyday09" />
-        <item itemvalue="Application.everyday08" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +448,7 @@
       <workItem from="1528458200854" duration="13039000" />
       <workItem from="1530274913554" duration="1075000" />
       <workItem from="1571417164763" duration="20292000" />
-      <workItem from="1571657559465" duration="7858000" />
+      <workItem from="1571657559465" duration="15763000" />
     </task>
     <task id="LOCAL-00001" summary="ridickle7&#10;1. git init">
       <created>1527553529391</created>
@@ -478,11 +499,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571564082478</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 성공&#10;- 2667 단지번호붙이기 리펙토링 시작">
+      <created>1571753546311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571753546311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 리펙토링 포기">
+      <created>1571754286051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571754286051</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53514000" />
+    <option name="totallyTimeSpent" value="61419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,7 +599,9 @@
     <MESSAGE value="ridickle7&#10;1. ~everyday09 solved" />
     <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부" />
     <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2178 미로찾기&#10;- 1260 BFS, DFS (리펙토링)" />
-    <option name="LAST_COMMIT_MESSAGE" value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2178 미로찾기&#10;- 1260 BFS, DFS (리펙토링)" />
+    <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 성공&#10;- 2667 단지번호붙이기 리펙토링 시작" />
+    <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 리펙토링 포기" />
+    <option name="LAST_COMMIT_MESSAGE" value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 리펙토링 포기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,42 +632,65 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java</url>
-          <line>84</line>
+          <line>86</line>
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java</url>
-          <line>67</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java</url>
-          <line>121</line>
-          <properties />
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java</url>
-          <line>126</line>
+          <line>128</line>
           <properties />
           <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="matrix" language="JAVA" />
         <watch expression="visited[nextY][nextX]" language="JAVA" />
-        <watch expression="nextX &gt; 0 &amp;&amp; nextX &lt; M + 1 &amp;&amp; nextY &gt; 0 &amp;&amp; nextY &lt; M + 1 &amp;&amp; matrix[nextY][nextX] &amp;&amp; !visited[nextY][nextX]" language="JAVA" />
+        <watch expression="nextQueue" language="JAVA" />
+        <watch expression="visited" language="JAVA" />
+        <watch expression="matrix" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>nextX &gt; 0 &amp;&amp; nextX &lt; M + 1 &amp;&amp; nextY &gt; 0 &amp;&amp; nextY &lt; M + 1 &amp;&amp; matrix[nextY][nextX] &amp;&amp; !visited[nextY][nextX]</expression-string>
+        <expression-string>nextQueue</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrix</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>visited</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -640,7 +700,17 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>matrix</expression-string>
+        <expression-string>!visited[nextY][nextX]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>answer</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nextX &gt; 0 &amp;&amp; nextX &lt; M + 1 &amp;&amp; nextY &gt; 0 &amp;&amp; nextY &lt; M + 1 &amp;&amp; matrix[nextY][nextX] &amp;&amp; !visited[nextY][nextX]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -656,26 +726,6 @@
       </expression>
       <expression>
         <expression-string>matrix[7][7]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>scan.next()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visited</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visited[4][1]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visitedTemp[4][1]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -960,16 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1260.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2178.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -995,6 +1035,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="88" column="96" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="class#Point#0;class#_2667#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/Solve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1002,14 +1055,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java">
+    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1260.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="-70">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#5911#5912#0" expanded="true" />
           </folding>
         </state>
       </provider>
