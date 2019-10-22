@@ -19,7 +19,7 @@ package exercise.acmicpc.bfs.java;
 // nextX를 x로 적고 앉아있고...
 
 // 개인 TIP
-// 조만간 x, y를 바꿔서 만들어봐야겠다.. 지금 만들어볼까?
+// 조만간 x, y를 바꿔서 만들어봐야겠다.. 지금 만들어볼까? 는 포기
 
 import exercise.acmicpc.Solve;
 
@@ -36,7 +36,7 @@ public class _2667 {
     private static boolean[][] visited;
 
     public static void main(String[] args) {
-        solve.solve();
+        solve.testSolve();
     }
 
     public static Solve solve = new Solve() {
@@ -48,7 +48,7 @@ public class _2667 {
 
             for (int i = 0; i < M; i++) {
                 for (int j = 0; j < M; j++)
-                    matrix[i + 1][j + 1] = strings.get(i).charAt(j) != '0';
+                    matrix[j + 1][i + 1] = strings.get(j).charAt(i) != '0';
             }
 
             bfs();
