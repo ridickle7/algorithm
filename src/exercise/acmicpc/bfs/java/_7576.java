@@ -27,6 +27,8 @@ package exercise.acmicpc.bfs.java;
 // 시간 이슈 말고는 스스로 문제를 풀었기 때문에 어느정도는 만족했다.
 
 // 개인 TIP
+// Call by Reference에 대한 업데이트 요소가 생겼다.
+// https://library1008.tistory.com/47 (얕은 복사와 깊은 복사)
 
 import exercise.acmicpc.Solve;
 

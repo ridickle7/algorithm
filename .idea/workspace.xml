@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0879a5-4bfa-409a-9f98-8ce691e10ae9" name="Default" comment="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 리펙토링 포기">
-      <change afterPath="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java" afterDir="false" />
+    <list default="true" id="ed0879a5-4bfa-409a-9f98-8ce691e10ae9" name="Default" comment="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 7576 토마토 성공">
+      <change afterPath="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1697.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/acmicpc/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/acmicpc/Solve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/Solve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="10" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -98,16 +98,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="340">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#279#280#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#5911#5912#0" expanded="true" />
+                <element signature="e#6002#6003#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1697.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#2111#2112#0" expanded="true" />
+                <element signature="e#2147#2148#0" expanded="true" />
+                <element signature="e#2190#2191#0" expanded="true" />
+                <element signature="e#2232#2233#0" expanded="true" />
+                <element signature="e#2265#2266#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
+                <element signature="e#2344#2345#0" expanded="true" />
+                <element signature="e#2386#2387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,9 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>var</find>
-      <find>scan.next</find>
-      <find>scan.nextLine</find>
       <find>visi</find>
       <find>matrix = new boolean[N + 1][M + 1];</find>
       <find>[y</find>
@@ -155,7 +173,6 @@
       <find>[x]</find>
       <find>[y]</find>
       <find>[nextY]</find>
-      <find>answer</find>
       <find>[</find>
       <find>[x</find>
       <find>[nextX][nextY]</find>
@@ -164,6 +181,10 @@
       <find>nextQueue</find>
       <find>nextQ</find>
       <find>remained</find>
+      <find>visited[index]</find>
+      <find>answer</find>
+      <find>System.out.print</find>
+      <find>newN</find>
     </findStrings>
     <replaceStrings>
       <replace>private static</replace>
@@ -205,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_2667.java" />
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/Solve.java" />
         <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java" />
+        <option value="$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1697.java" />
       </list>
     </option>
   </component>
@@ -325,9 +347,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._7576">
+  <component name="RunManager" selected="Application._1697">
     <configuration name="_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise.acmicpc.bfs.java._1260" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.acmicpc.bfs.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1697" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.acmicpc.bfs.java._1697" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -388,20 +424,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="everyday09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise._2018_05_10_everydayProgramming.everyday09" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise._2018_05_10_everydayProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -418,19 +440,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.everyday09" />
       <item itemvalue="Application._1260" />
       <item itemvalue="Application._2178" />
       <item itemvalue="Application._2667" />
       <item itemvalue="Application._7576" />
+      <item itemvalue="Application._1697" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._1697" />
         <item itemvalue="Application._7576" />
         <item itemvalue="Application._2667" />
         <item itemvalue="Application._1260" />
         <item itemvalue="Application._2178" />
-        <item itemvalue="Application.everyday09" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +470,7 @@
       <workItem from="1528458200854" duration="13039000" />
       <workItem from="1530274913554" duration="1075000" />
       <workItem from="1571417164763" duration="20292000" />
-      <workItem from="1571657559465" duration="15763000" />
+      <workItem from="1571657559465" duration="21638000" />
     </task>
     <task id="LOCAL-00001" summary="ridickle7&#10;1. git init">
       <created>1527553529391</created>
@@ -513,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571754286051</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 7576 토마토 성공">
+      <created>1571769561577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571769561577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61419000" />
+    <option name="totallyTimeSpent" value="67294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,8 +569,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4932845" visible="true" weight="0.24693878" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.496337" weight="0.47142857" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4932845" weight="0.24693878" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.496337" visible="true" weight="0.29489797" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
@@ -601,7 +630,8 @@
     <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2178 미로찾기&#10;- 1260 BFS, DFS (리펙토링)" />
     <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 성공&#10;- 2667 단지번호붙이기 리펙토링 시작" />
     <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 리펙토링 포기" />
-    <option name="LAST_COMMIT_MESSAGE" value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 2667 단지번호붙이기 리펙토링 포기" />
+    <MESSAGE value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 7576 토마토 성공" />
+    <option name="LAST_COMMIT_MESSAGE" value="riflockle7&#10;&#10;1.알고리즘 공부 (10.20)&#10;- 7576 토마토 성공" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,21 +680,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java</url>
-          <line>166</line>
+          <line>168</line>
           <properties />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java</url>
-          <line>142</line>
+          <line>144</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java</url>
-          <line>104</line>
+          <line>106</line>
           <properties />
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1697.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1048,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/Solve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="10" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1260.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-70">
@@ -1067,13 +1096,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_7576.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#5911#5912#0" expanded="true" />
+            <element signature="e#6002#6003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/Solve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise/acmicpc/bfs/java/_1697.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
           </folding>
         </state>
       </provider>
